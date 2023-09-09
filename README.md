@@ -41,3 +41,13 @@ again even if previously received part of the sequence. The Process function whi
 point is called every 100ms.
 
 ![Explanation of test!](image.png)
+
+## 6- Modulo test
+
+The code should take integers from defined range e.g. 0-100 and process them as follows.
+● If a number is divisible by 3, print “Global”
+● If a number is divisible by 5, print “Logic”
+● If a number is divisible by 3 AND by 5, print “GlobalLogic” in a single line
+● Each printout should be done on a separate line.
+
+![test 2 explanation.](image-1.png)
