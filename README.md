@@ -14,7 +14,7 @@ Have you curious about how the password strength check is working?
 This function tells you if a password is strong or not. A strong password has these things: a capital letter, a small letter, a number, and a symbol. The function looks at each letter in the password and sees what kind it is. 
 If the password has all four kinds of letters, the function says yes. If not, it says no.
 
-## 3- Phone Number OR String Formatting
+## 4- Phone Number OR String Formatting
 Interview question explanation:
 
 You are given a string to reformat. The string consists of N characters of letters, digits, spaces and/or dashes. The string always contains at least two alphanumeric characters. Spaces and dashes in the string should be ignored. We want to reformat the string so that the characters are grouped in blocks of three, separated by single spaces. If necessary, the final block or the last two blocks can be of length two.
@@ -31,3 +31,13 @@ You should assume that:
 • string S contains at least two
 characters.
 
+## 5- ASCII Character parsing
+
+A random ASCII character is received every 100ms. We need to find a sequence of "GLROX"
+characters. There can be other characters in between! Once found- call a Found function and
+wait for the sequence again, if not found then wait until this sequence is found. If a new
+character does not come in 2 seconds call Timeout function and wait for the whole "GLROX"
+again even if previously received part of the sequence. The Process function which is your entry
+point is called every 100ms.
+
+![Explanation of test!](image.png)
