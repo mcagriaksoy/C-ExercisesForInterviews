@@ -51,3 +51,8 @@ The code should take integers from defined range e.g. 0-100 and process them as 
 ● Each printout should be done on a separate line.
 
 ![test 2 explanation.](image-1.png)
+
+## 7- Program for array left rotation by given index positions.
+
+The task is to rotate the array elements to the left by index positions.
+An example: https://www.geeksforgeeks.org/array-rotation/
