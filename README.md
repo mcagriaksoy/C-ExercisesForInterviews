@@ -56,3 +56,15 @@ The code should take integers from defined range e.g. 0-100 and process them as 
 
 The task is to rotate the array elements to the left by index positions.
 An example: https://www.geeksforgeeks.org/array-rotation/
+
+## 8- Find the closest pair from two sorted arrays
+
+Given two sorted arrays and a number x, 
+find the pair whose sum is closest to x and the pair has an element from each array.
+An example: https://www.geeksforgeeks.org/given-two-sorted-arrays-number-x-find-pair-whose-sum-closest-x/ 
+
+## 9- Polindome string
+A palindrome string has some properties which are mentioned below:
+
+A palindrome string has a symmetric structure which means that the character in the first half of the string are the same as in the rear half but in reverse order.
+Any string of length 1 is always a palindrome.
