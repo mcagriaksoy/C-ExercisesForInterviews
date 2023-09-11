@@ -61,8 +61,6 @@ An example: https://www.geeksforgeeks.org/array-rotation/
 
 This program is designed to find the closest pair from two sorted arrays. Given two sorted arrays and a number x, the function finds the pair whose sum is closest to x and the pair has an element from each array.
 
-The algorithm uses a two-pointer technique to traverse both arrays from either ends. The sum of the elements pointed by the pointers is compared with x to update the closest pair. The pointer from the array with the smaller sum is incremented, otherwise, the other pointer is decremented.
-
 The function returns the closest pair of numbers. If there are multiple pairs with the same absolute difference, it returns one of them.
 
 This program can be useful in various applications where you need to find pairs with specific properties from two sets of data. For example, it can be used in machine learning algorithms for nearest neighbor searches, or in database queries to find records with similar attributes.
