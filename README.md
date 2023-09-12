@@ -72,3 +72,11 @@ A palindrome string has some properties which are mentioned below:
 A palindrome string has a symmetric structure which means that the character in the first half of the string are the same as in the rear half but in reverse order.
 Any string of length 1 is always a palindrome.
 
+## 10- Find the desired element and number of occurence it, given paragraph
+
+The question is finding the number of element, how many times is mentioned a given paragraph.
+
+## 11 - Find the most used,frequent or repeated word in given paragraph or text file.
+
+Program to find the most repeated word in a string.
+In this program, we must identify the term that appears the most in a given paragraph.line at a time, split, and store in an array. Find each word's frequency as you iterate through the array, then compare it to the maximum count. If frequency exceeds maxcount, the frequency should be stored in maxcount and the associated word should be stored in the variable word.
