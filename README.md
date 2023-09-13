@@ -87,3 +87,7 @@ Let's code another version of the rat in the maze experiment in C. For this, I u
 Coming to our question, our labyrinth consists of numbers and our goal is to follow the numbers from 1 to 16. Our algorithm first goes to location number 1 and moves 2, 3, 4 .. until it reaches 16. Unlike other examples, the algorithm can also go in diagonal directions, which increases complexity.
 
 In the original question, there is an 8x8 array, so a 10x10 array is required. But for the sake of example, I loaded a 6x6 array.
+
+## 13 - Radix sort implementation
+
+A linear sorting method called Radix Sort sorts elements by going over each one digit by digit. It is a successful sorting technique for fixed-size keys in strings or integers. 
