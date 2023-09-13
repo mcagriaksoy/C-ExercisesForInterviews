@@ -80,3 +80,10 @@ The question is finding the number of element, how many times is mentioned a giv
 
 Program to find the most repeated word in a string.
 In this program, we must identify the term that appears the most in a given paragraph.line at a time, split, and store in an array. Find each word's frequency as you iterate through the array, then compare it to the maximum count. If frequency exceeds maxcount, the frequency should be stored in maxcount and the associated word should be stored in the variable word.
+
+## 12 - Rat in maze problem with extended complexity!
+
+Let's code another version of the rat in the maze experiment in C. For this, I used the standard 'backtracking' algorithm with recursive functions. A similar algorithm can be solved more effectively with stack and linked list relationships.
+Coming to our question, our labyrinth consists of numbers and our goal is to follow the numbers from 1 to 16. Our algorithm first goes to location number 1 and moves 2, 3, 4 .. until it reaches 16. Unlike other examples, the algorithm can also go in diagonal directions, which increases complexity.
+
+In the original question, there is an 8x8 array, so a 10x10 array is required. But for the sake of example, I loaded a 6x6 array.
