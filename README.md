@@ -131,3 +131,32 @@ This code defines a function called PalindromeCreator that takes a string as inp
 The function first checks if the input string is already a palindrome. If it is, the function prints "palindrome" and returns. If it's not, the function tries to create a palindrome by adding one character. It does this by checking every pair of characters that are not equal and trying to add a character between them that would make them equal. If it finds a solution, it prints the palindrome and returns. If it can't find a solution, it prints "not possible".
 
 The main function calls the PalindromeCreator function with input from the standard input.
+
+## 18 - Max and Min
+
+There are two member variables, objl.value and obj2.value, that belong to different instances of the same structure.
+Complete 3 functions as described.
+Function Description Complete the functions swap(), find Maximum(), and Nullify \_Min() in the editor below.
+• In the swap() function, swap the member variables of both instances using their pointers. • In the find Maximum() function, return the maximum of the two integer values. • In the Nullify \_Min(), assign NULL to the pointer with the lower value.
+
+## 19 - Bit Logic
+
+For two positive integers, lo and hi, and a limit k, find two integers, a and b, satisfying the following criteria. Return the value of a xor b. The e symbol denotes the bitwise XOR operator.
+
+![Alt text](image-3.png)
+
+## 20 - 4th Bit
+
+A binary number is a combination of 1s and 0s. Its nth least significant digit is the the nth digit starting from the right starting with 1. Given a decimal number, convert it to binary and determine the value of the the 4th least significant digit.
+
+Example number = 23
+
+• Convert the decimal number 23 to binary number: 2310 =24 +22+21+20 =(10111)2.
+• The value of the 4th index from the right in the binary representation is a
+Function Description Complete the function fourthBit in the editor below.
+fourthBit has the following parameter(s): int number: a decimal integer Returns: int: an integer Oor 1 matching the 4th least significant digit in the binary representation of number.
+
+## Country Survey (Struct)
+
+The government has taken the census and wants to analyze the results. Implement the three queries provided below.
+• Query 1: Age More than k() o input: details of the people, number of people, and k o returns: Inc the number of people older than k • Query 2: Persons from city c() o input: details of the people, number of people, and city c o returns: Inc the number of people who reside in c • Query 3: Salary between() o input: details of the people, number of people, minimum salary, and maximum salary o returns: Inc the number of people who earn between [minimum, maximum]
